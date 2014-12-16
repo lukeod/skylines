@@ -16,6 +16,9 @@ development on OS X or Windows. This may or may not work currently and for now
 we don't recommend using it. More information can be found in
 [INSTALL.vagrant.md](INSTALL.vagrant.md).
 
+# Java
+
+A Skylines dependency "WebAssets" requires Java. Not having Java will result in missing assets.
 
 ## Python, Flask and other dependencies
 
@@ -35,6 +38,7 @@ Now you can install the python dependencies by calling:
 
 *Note: You might have to install the additional Ubuntu/Debian packages
 `libpq-dev`, `python-dev` and `g++` for the `psycopg2` dependency.*
+
 
 
 ## PostGIS database
